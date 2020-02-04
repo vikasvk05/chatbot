@@ -1,0 +1,86 @@
+{ "intents": [
+
+   {"tag": "diseaese1",
+         "patterns": ["polyuria","polydypsia","shortness of breath","asthenia","nausea","orthopnea","rale","sweat","unresponsiveness","mental status changes","vertigo","vomiting","labored breathing" ],
+         "responses": ["You may suffering from diabetes.Please avoid to eat sweet and spicy food"]
+        },
+    {"tag": "disease2",
+         "patterns": ["chest pain","shortness of breath","dizziness","fall","syncope","vertigo","sweating           increased","palpitation","nausea","angina pectoris","pressure chest"],
+         "responses": ["you may suffering from hypertensive disease"]
+        },
+
+    {"tag": "disease3",
+         "patterns": ["feeling suicidal","suicidal","hallucinations auditory","feeling hopeless","weepiness","sleeplessness","motor retardation","irritable mood","blackout","mood depressed","hallucinations visual","worry","agitation","tremor","intoxication","verbal auditory hallucinations","energy increased","difficulty","nightmare","unable to concentrate","homelessness"],
+         "responses": ["You may suffering from mental depression stay cool"]
+        },
+
+   {"tag": "disease4",
+         "patterns": ["shortness of breath","orthopnea","jugular venous distention","rale","dyspnea","cough","wheezing"],
+         "responses": ["This is the symptoms of heart failure congestive, please take suggestion to the nearest doctor"]
+        },
+   {"tag": "disease5",
+         "patterns":["high fever","stomach pain","weakness","vomiting and loose stools"],
+         "responses": ["May be you have typhied. You should avoid spicy food and take rest"]
+  },
+  {"tag": "disease6",
+        "patterns":["faitgue","weight loss","vomiting","pale stools","dark urine","abdominal pain"],
+        "responses":["You may suffer from joundice. Plese eat cold thing and avoid to eat spicy food"]   
+},
+
+{"tag" : "disease7",
+       "patterns":["redness","itching and tearing of the eyes","discharge or crusting around the eyes"],
+       "responses":["You may suffer from Conjunctivitis"]
+},
+{"tag": "disease8",
+      "patterns" :["dermatitis","dementia","diarrhea" ],
+      "responses":["You may suffer from Pellagra"]
+},
+{"tag": "disease9",
+      "patterns" :["cough","runny nose","inflamed eyes","sore throat","fever and red","blotchy skin rash"],
+      "responces":["Measles"]
+ 
+},
+{"tag":"disease10",
+     "patterns" :["high fever","headache","rash and muscles", "joint pain","serious bleeding","shock"],
+     "responces":["This is the symptom of Dengue"]
+},
+{"tag":"disease11",
+     "patterns" :["pain in ear","vertigo inflammation or ringing in ear","nausea"],
+     "responces":["This is the symptom of Otitis media"]
+
+},
+{"tag":"disease11",
+     "patterns" :["cough","weight loss","night sweat and fever"],
+     "responces":["This is the symptoms of Tuberculosis"]
+},
+
+{"tag":"disease12",
+     "patterns" :["coloured or red skin, patches with reduded sensation,numbness and weakness in hands and feet"],
+     "responces":["This is the symptom of Leprosy"]
+},
+
+{"tag":"disease13",
+     "patterns" :["deleyed griwth","bow kegs","weakness and pain in the spine","pelvis and legs"],
+     "responces":["You may suffer from Rickets"]
+},
+{"tag":"disease14",
+     "patterns" :["faitgue","skin pallor","shortness of breath","light-headness","dizziness or a fast heartbeat"],
+     "responces":["This is the symptom of anaemia."]
+},
+{"tag":"disease15",
+     "patterns" :["flag skin hair","diarrhea","edema in ankels","feet","belly","severe infections irritability"],
+     "responces":["Kwashiorkor"]
+},
+{"tag":"disease16",
+     "patterns" :["persistent dizziness","lack of energy","dry skin","brittle  hair","emaciation of muscle"],
+     "responces":["you may suffer from marasmus"]
+},
+
+{"tag":"disease17",
+     "patterns" :["swelling or ulcers in mouth","blister or redness in mouth","abnormility of taste"],
+     "responces":["You may suffer from Stomatitis"]
+}
+
+]
+
+}
